@@ -1,0 +1,48 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    margin: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+.vl {
+    border-left: 4px solid lightgray;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    width: 33%;
+}
+
+td {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 5px;
+}
+
+thead tr {
+    text-align: left;
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(2n-1) {
+    background-color: rgb(240, 237, 237);
+}
+
