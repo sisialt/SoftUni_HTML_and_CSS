@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.card .name,
+.card .department {
+    width: 100%;
+    text-align: center;
+}
+
+.card .name {
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.card .person-info {
+    font-style: italic;
+    padding-top: 1em;
+    text-align: center;
+}

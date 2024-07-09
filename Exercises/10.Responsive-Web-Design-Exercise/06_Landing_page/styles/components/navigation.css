@@ -1,0 +1,13 @@
+.site-header-nav {
+    display: inline-block;
+}
+
+.site-header-nav li {
+    display: inline;
+    margin-left: 2em;
+}
+
+.site-header-nav li a {
+    text-decoration: none;
+    color: black;
+}

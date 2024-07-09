@@ -1,0 +1,13 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+html {
+    font: 14px/1.5 Helvetica, sans-serif;
+}
+
+body, table, input {
+    font: inherit;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
