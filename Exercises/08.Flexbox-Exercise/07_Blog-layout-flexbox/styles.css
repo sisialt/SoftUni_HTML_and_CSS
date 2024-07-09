@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: sans-serif;
+    padding: 5em;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    padding-top: 1em;
+}
+
+p {
+    padding: 1em;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.3);
+    padding: 0.5em;
+}
+
+blockquote {
+    color: darkgray;
+    border-left: 2px solid darkgray;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+blockquote :nth-child(2) {
+    text-align: right;
+    width: 100%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    flex-grow: 1;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+
+.site-main {
+    max-width: 80%;
+}
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second .second-title {
+    flex: 1 0 100%;
+}
+.second blockquote,
+.second p:nth-of-type(2) {
+    width: 50%;
+}
+
+.first img {
+    float: right;
+    margin: 1em;
+    margin-right: 0;
+}
+
+.third img {
+    float: left;
+    margin: 1em;
+    margin-left: 0;
+}
+
+aside ul {
+    padding: 0.5em;
+    padding-left: 2em;
+}
+
+aside ul li {
+    list-style: square;
+    padding-bottom: 0.2em;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
