@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+h2 {
+    font-size: 4em;
+    padding: 1em 0;
+}
+
+.font-karla {
+    font: 18px/1.5 Karla;
+}
+
+.font-cormorant {
+    font-family: "Cormorant Infant";
+}
+
+h1.font-cormorant{
+    font-size: 90px;
+}
+
+.font-cormorant p {
+    font-size: 16px;
+}
+
+
+.gray {
+    background-color: #F8F0E9;
+}
+
+.red {
+    background-color: #E14747;
+}
+
+.yellow {
+    background-color: #FAD87A;
+}
+
+.black {
+    background-color: #352B2A;
+}
+
+.white-color {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.site-header {
+    background-image: url('images/poster.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    box-shadow: 100em 100em 2em rgba(0, 0, 0, 0.4) inset
+}
+
+.logo-container {
+    width: 120px;
+}
+
+.site-header .main-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em 4em;
+}
+
+.site-header .main-header nav ul {
+    display: flex;
+    gap: 4em;
+}
+
+.site-header .main-header nav ul li {
+    list-style: none outside;
+}
+
+.site-header .main-header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header .container {
+    padding: 15em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9em;
+}
+
+.header-info-container {
+    text-align: center;
+}
+
+.header-info-container p {
+    display: inline;
+}
+
+
+blockquote {
+    font-style: italic;
+    font-size: 4em;
+    line-height: 0.8;
+    padding: 1em 0;
+}
+
+.blockquote-container {
+    max-width: 50%;
+    padding: 3em 0;
+}
+
+
+.support-container {
+    flex-direction: column;
+    max-width: 15%;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.support-container p:first-of-type {
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
+.card-container {
+    flex-direction: column;
+    max-width: 30%;
+    padding: 4em 0;
+}
+
+.card-container .info {
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-container .info p {
+    text-align: left;
+}
+
+.button-container {
+    margin-top: 5em;
+}
+
+.card-container .info .button-container:first-of-type {
+    text-align: left;
+}
+
+.button {
+    padding: 0.5em 1.5em;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    background-color: white;
+}
+
+
+.site-section:last-of-type .button {
+    background-color: #FAD87A;
+    border: none;
+    border-radius: 2em;
+    padding: 1em 2em;
+}
+
+.site-section:last-of-type .button-container {
+    margin-bottom: 3em;
+}
+
+.site-section:last-of-type .container {
+    text-align: center;
+    max-width: 50%;
+    padding: 2em 0;
+}
+
+.site-section:last-of-type h2 {
+    margin-bottom: 0.5em;
+}
+
+
+footer {
+    padding: 4em 8em;
+}
+
+footer .logo-container {
+    width: 75px;
+    margin-bottom: 2em;
+}
+
+footer p:first-of-type {
+    font-size: 0.95em;
+    padding-bottom: 1.5em;
+}
+
+footer p:last-of-type {
+    color: gray;
+    font-size: 0.8em;
+}
+
+footer .footer-container {
+    max-width: 25%;
+}
