@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 23px/1.15 Inter;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.6em 6.5em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* 
+.media {
+    width: 10.4em;
+} */
+
+.card {
+    background-color: white;
+    width: auto;
+    padding: 2em;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card.second-container {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1630px;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.container-for-two-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 1 0 65%;
+}
+
+.container-for-one-card {
+    display: flex;
+    flex: 1 0 30%;
+}
+
+i {
+    font-size: 5em;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.description {
+    padding: 2em 0;
+}
+
+.media {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: 0 0 25%;
+}
+
+.media-info {
+    display: flex;
+    gap: 0.5em;
+    padding: 1em 0;
+    border-top: 2px solid grey;
+}
+
+.media-info .media {
+    display: flex;
+    flex-grow: 1;
+}
