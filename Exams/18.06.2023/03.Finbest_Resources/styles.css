@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 Inter;
+}
+
+h1 { font-size: 3.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1400px; 
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    background-color: #ADE2DF;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    padding: 0 1em;
+}
+
+.site-header nav a {
+    text-decoration: none;
+}
+
+.site-section:last-of-type,
+.site-section:first-of-type {
+    text-align: center;
+}
+
+.site-section:first-of-type .container {
+    padding: 3em 0;
+    max-width: 1660px;
+}
+
+.site-section:first-of-type .container p {
+    padding: 1em;
+}
+
+.site-section:last-of-type .button,
+.site-section:first-of-type .button {
+    background-color: #000;
+    color: white;
+    padding: 1.1em 1.5em;
+    margin-left: 0.5em;
+}
+
+.site-section:first-of-type .button-container {
+    padding: 2em;
+}
+
+.three-columns {
+    padding: 4em;
+    text-align: center;
+}
+
+.three-columns .column {
+    border-right: 0.5px solid rgb(199, 199, 199);
+    border-left: 0.5px solid rgb(199, 199, 199);
+}
+
+.three-columns .column p {
+    padding: 1.5em 1em 4em 1em;
+}
+
+.media {
+    border: 2px dashed gray;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.with-media {
+    justify-content: space-evenly;
+}
+
+.with-media .info {
+    flex-basis: 45%;
+}
+
+.with-media .info .bold {
+    font-weight: bold;
+    padding: 1.5em 0 0.5em 0;
+}
+
+.with-media .info .underline {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.with-media .info p:nth-of-type(4) {
+    padding-bottom: 2.5em;
+}
+
+.fourth-section {
+    background-color: #F3F5FA;
+    padding-bottom: 2em;
+}
+
+.fourth-section .container {
+    text-align: center;
+    padding: 3em 0 4em 0;
+}
+
+.fourth-section .container h2 {
+    padding-top: 1em;
+}
+
+.container-card-info {
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.card-info {
+    background-color: white;
+    padding: 2em;
+}
+
+.container-card-info ul {
+    list-style: none outside;
+}
+
+.with-no-price {
+    flex: 1 0 40%;
+}
+
+.card-info-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-info-inner-container {
+    border-right: 1px solid gray;
+}
+
+.site-section:last-of-type .container {
+    padding: 3em 0;
+    max-width: 760px;
+}
+
+.site-section:last-of-type .button-container {
+    padding: 3em;
+}
+
+.site-footer {
+    justify-content: space-between;
+    background-color: #F3F5FA;
+    padding: 1em 3em;
+}
+
+.icons a {
+    padding-left: 1em;
+}
+
+/* 2 buttons in .buttons */
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: #000;
+    text-decoration: none;
+}
